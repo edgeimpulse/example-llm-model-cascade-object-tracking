@@ -1,0 +1,22 @@
+{
+  "name": "example-llm-model-cascade-object-tracking",
+  "private": true,
+  "version": "1.0.0",
+  "description": "bleep",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p . --incremental"
+  },
+  "author": "Jan Jongboom <jan@edgeimpulse.com>",
+  "devDependencies": {
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "@types/express": "4.17.13",
+    "@types/socket.io": "2.1.4",
+    "edge-impulse-linux": "1.14.2",
+    "express": "4.17.3",
+    "openai": "4.53.2",
+    "sharp": "0.32.6",
+    "socket.io": "2.5.1"
+  }
+}
